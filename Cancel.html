@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancel Booking - Luxe Salon & Spa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header>
+        <div class="logo">
+            <img src="images/logo/LEXU SALON AND SPA.png" alt="Luxe Salon Logo">
+        </div>
+        
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="Policies.html">Policies</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+
+                <div class="button">
+                    <a href="booking.html">BOOK NOW!</a>
+                </div>
+    </header>
+
+    <div class="form-container">
+        <h1>Cancel Appointment</h1>
+        <p>We're sorry to see you go. Please fill in your details to cancel your booking.</p>
+
+        <form>
+            <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your name and surname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+267 71111111" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reason">Reason for Cancellation</label>
+                <select id="reason" name="reason">
+                    <option value="">-- Select a reason --</option>
+                    <option value="emergency">Emergency</option>
+                    <option value="schedule-change">Schedule Change</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button type="submit" class="submit-btn" style="background-color: #d9534f;">CONFIRM CANCELLATION</button>
+                <a href="booking.html" class="submit-btn" style="background-color: #5bc0de; text-decoration: none; text-align: center;">RESCHEDULE</a>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>tel: 345 8654 | whatsapp: 77938886 | email: luxesalon&spa@yahoo.com</p>
+        <p>Copyright@luxe salon & spa</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

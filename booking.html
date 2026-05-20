@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Luxe Salon & Spa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo/LEXU SALON AND SPA.png" alt="Luxe Salon Logo">
+        </div>
+        
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="Policies.html">Policies</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+
+                <div class="button">
+                    <a href="booking.html">BOOK NOW!</a>
+                </div>
+    </header>
+
+    <div class="form-container">
+        <h1>Book An Appointment</h1>
+        <p>Fill in your details and we will confirm your booking.</p>
+
+        <form>
+            
+            <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your name and surname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+267 71111111" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Service Category *</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Choose a Service --</option>
+                    <option value="haircut">Haircut</option>
+                    <option value="styling">Styling</option>
+                    <option value="coloring">Coloring</option>
+                    <option value="manicure">Manicure</option>
+                    <option value="pedicure">Pedicure</option>
+                    <option value="nail-art">Nail Art</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="service-type">Service Type *</label>
+                <input type="text" id="service-type" name="service-type" placeholder="e.g. Fulani braids" required>
+            </div>
+
+            <div class="form-group">
+                <label for="professional">Preferred Professional</label>
+                <select id="professional" name="professional">
+                    <option value="">-- Any Professional --</option>
+                    <option value="Naledi Moabi">Naledi Moabi (Hair)</option>
+                    <option value="Palesa Motsumi">Palesa Motsumi (Hair)</option>
+                    <option value="Boitumelo Selepe">Boitumelo Selepe (Nails)</option>
+                    <option value="Reabetswe Maano">Reabetswe Maano (Nails)</option>
+                    <option value="Tshepo Maikutlo">Tshepo Maikutlo (Spa)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date-time">Preferred Date & Time *</label>
+                <input type="datetime-local" id="date-time" name="date-time" required>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="Policies.html">terms and conditions</a> of Luxe Salon & Spa.</label>
+            </div>
+
+            <button type="submit" class="submit-btn">RESERVE YOUR SPACE</button>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>tel: 345 8654 | whatsapp: 77938886 | email: luxesalon&spa@yahoo.com</p>
+        <p>Copyright@luxe salon & spa</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
