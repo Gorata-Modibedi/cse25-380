@@ -197,7 +197,6 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    -webkit-appearance: none;
 }
 
 .submit-btn:hover {
