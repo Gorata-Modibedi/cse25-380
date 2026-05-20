@@ -54,7 +54,7 @@ nav ul li a {
 .input-wrapper {
     display: flex;
     flex-direction: column;
-    background: #8a6e53;
+    background: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     border-radius: 5px;
     overflow: hidden;
@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .input-wrapper button {
-    background: #8a6e53;
+    background: white;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -82,7 +82,7 @@ nav ul li a {
 }
 
 .input-wrapper button:hover {
-    background: #6d5248;
+    background: white;
 }
 
 /* ===== ACCORDION ===== */
